@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+html, body {
+  width: 100% !important;
+  height: auto !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  overflow-x: hidden !important;
+  font-family: 'Lato', sans-serif !important;
+  color: black !important; 
+}
+
+
+.offset:before{
+    display: block !important;
+    content: "" !important;
+    height: 4rem !important;
+    margin-top: -4rem !important;
+}
+
+
+.aut{
+    font-weight: bold !important;
+    color: green !important;
+    font-size: 1rem !important;
+    justify-content: center !important;
+    align-content: center !important;
+}
+
+.naoaut{
+    font-weight: bold !important;
+    color: red !important;
+    font-size: 1rem;
+    justify-content: center !important;
+    align-content: center !important;
+}
+
+form{
+    padding-top: 1rem !important;
+    padding-left: 50%;
+  }
+  
+  #insert-form{
+        font-size: 1rem !important;
+  }
+  
+  input[name="nome_unidade"]{
+    height: 2rem !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    border-bottom: 1px solid rgb(0,78,146) !important;
+    color: rgb(0, 0, 0) !important;
+    font-size: 1rem !important;
+    margin-bottom: 1rem;
+  }
+  input[name="nome_unidade"]:hover{
+    background: rgb(241, 241, 241) !important;
+  }
+  
+  input[name="insertsub" ]{
+    border-radius: 25px !important;
+    background: rgb(0,78,146) !important;
+    border-color: transparent !important;
+    font-size: 1.25rem !important;
+    font-weight: 700 !important;
+    height: 3.125rem !important;
+    letter-spacing: 0.1rem !important;
+  }
+  
+  input[name="insertsub"]:hover{
+    background-color:rgb(0, 144, 228) !important;
+    cursor: pointer !important;
+  }
+
+  #widgets .widget-wrapper{
+      display:none !important;
+  }
+  #widgets{
+    display:none !important;
+  }
+  .col-300{
+    display:none !important;
+  }
+  .fit{
+    display:none !important;
+  }
+
+  #wpadminbar{
+    display:none !important;
+  }
+
+  .breadcrumb-current{
+    display:none !important;
+  }
+  .site-description {
+    display:none !important;
+  }
+  .site-name a{
+    display:none !important;
+  }
+  
+  .breadcrumb-list{
+    display:none !important;
+  }
+
+  .copyright{
+      display: none !important;
+  }
+  #post-13{
+    width:100%;
+  }
+  .post-edit{
+    display: none !important;
+  }
+  .page div#content, .post-entry{
+    width:100%;
+  }
+  #bitnami-banner .bitnami-corner-image-div .bitnami-corner-image{
+    display: none !important;
+  }
+
+  .post-entry>:first-child, .thumbnail>:first-child{
+    font-family: 'Lato', sans-serif !important;
+    text-align: center !important;
+  }
+  .entry-title post-title{
+    font-family: 'Lato', sans-serif !important;
+    text-align: center !important;
+  }
+  .IntroHeader{
+    font-family: 'Lato', sans-serif !important;
+  }
+  .full-width-no-box .menu{
+    font-family: 'Lato', sans-serif !important;
+    font-size: 1rem !important;
+    font-weight:bold !important;
+    background-color: rgb(0,78,146) !important;
+  }
+  #header{
+    background-color: rgb(0,78,146) !important;
+    font-family: 'Lato', sans-serif !important;
+    font-size: 1rem !important;
+    font-weight:bold !important;
+  }
+  .full-width-no-box .menu .current-menu-item a, .full-width-no-box .menu .current_page_item a{
+    background-color: rgb(0,78,146) !important;
+    font-family: 'Lato', sans-serif !important;
+    font-size: 1rem !important;
+    font-weight:bold !important;
+  }
+  .main-nav .menu a{
+    background-color: rgb(0,78,146) !important;
+    font-family: 'Lato', sans-serif !important;
+    font-size: 1rem !important;
+    font-weight:bold !important;
+  }
+  .menu a{
+      border:none !important;
+  }
+
+  .InsertHeader{
+    font-family: 'Lato', sans-serif !important;
+    text-align: center !important;
+  }
+
+  .insertion_verify{
+    font-family: 'Lato', sans-serif !important;
+    text-align: center !important;
+  }
+
+  .insert_style{
+    font-family: 'Lato', sans-serif !important;
+    text-align: center !important;
+  }
+  .Inser_success{
+    font-size: .7rem !important;
+  }
+
+  .SemAtrib{
+    font-family: 'Lato', sans-serif !important;
+    text-align: center !important;
+    font-size: .7rem !important;
+  }
+  .quererror{
+    font-family: 'Lato', sans-serif !important;
+    text-align: center !important;
+    font-size: .7rem !important;
+  }
+
+  .TabelaUnit,tr,td{
+    border-width: 1px !important;
+    border-color: black !important;
+    font-family: 'Lato', sans-serif !important;
+  }
+  .tr,td:hover{
+    background-color: rgb(238, 237, 237) !important;
+  }
+  .tableContainer{
+    padding-left: 15rem !important;
+    padding-right: 15rem !important;
+    font-family: 'Lato', sans-serif !important;
+    
+  }
+  .tableheader{
+    background-color:rgb(0,78,146) !important;
+    font-family: 'Lato', sans-serif !important;
+    color: white !important;
+    font-weight: bold !important;
+
+  }
+/*Fim da pagina de gestão de unidades*/
+
+/*Inicio pagina gestão de atributos*/
+select {
+  width: 100% !important;
+}
+#tipoval{
+  margin: 0 auto !important;
+  width: 190px !important;
+  text-align: left !important;
+  background-color: rgb(238, 237, 237) !important;
+}
+
+#objeto{
+  margin: 0 auto !important;
+  width: 190px !important;
+  text-align: left !important;
+  background-color: rgb(238, 237, 237) !important;
+}
+
+#tipocamp{
+  margin: 0 auto !important;
+  width: 190px !important;
+  text-align: left !important;
+  background-color: rgb(238, 237, 237) !important;
+}
+
+#unit{
+  margin: 0 auto !important;
+  width: 190px !important;
+  text-align: left !important;
+  background-color: rgb(238, 237, 237) !important;
+}
+
+#ordem{
+  width: 237px;
+}
+
+#tamanho{
+  width: 257px;
+}
+
+#obriga{
+  margin: 0 auto !important;
+  width: 190px !important;
+  text-align: left !important;
+  background-color: rgb(238, 237, 237) !important;
+}
+
+#objetoref{
+  margin: 0 auto !important;
+  width: 190px !important;
+  text-align: left !important;
+  background-color: rgb(238, 237, 237) !important;
+}
+
+input[name="nome_atributo"]{
+  height: 2rem !important;
+  background: transparent !important;
+  border: none !important;
+  outline: none !important;
+  border-bottom: 1px solid rgb(0,78,146) !important;
+  color: rgb(0, 0, 0) !important;
+  font-size: 1rem !important;
+  margin-bottom: 1rem;
+}
+input[name="nome_atributo"]:hover{
+  background: rgb(241, 241, 241) !important;
+}
+
+input[name="ord_camp_form"]{
+  height: 2rem !important;
+  background: transparent !important;
+  border: none !important;
+  outline: none !important;
+  border-bottom: 1px solid rgb(0,78,146) !important;
+  color: rgb(0, 0, 0) !important;
+  font-size: 1rem !important;
+  margin-bottom: 1rem;
+}
+input[name="ord_camp_form"]:hover{
+  background: rgb(241, 241, 241) !important;
+}
+
+input[name="tam_camp_form"]{
+  height: 2rem !important;
+  background: transparent !important;
+  border: none !important;
+  outline: none !important;
+  border-bottom: 1px solid rgb(0,78,146) !important;
+  color: rgb(0, 0, 0) !important;
+  font-size: 1rem !important;
+  margin-bottom: 1rem;
+}
+input[name="tam_camp_form"]:hover{
+  background: rgb(241, 241, 241) !important;
+}
+
+input[name="insertsattr" ]{
+  border-radius: 25px !important;
+  background: rgb(0,78,146) !important;
+  border-color: transparent !important;
+  font-size: 1.25rem !important;
+  font-weight: 700 !important;
+  height: 3.125rem !important;
+  letter-spacing: 0.1rem !important;
+}
+
+input[name="insertsattr"]:hover{
+  background-color:rgb(0, 144, 228) !important;
+  cursor: pointer !important;
+}
+
+/*Fim da pagina de gestão de atributos*/
+
+/*Início da página gestão de objetos*/
+input[name="object_name"]{
+  height: 2rem !important;
+  background: transparent !important;
+  border: none !important;
+  outline: none !important;
+  border-bottom: 1px solid rgb(0,78,146) !important;
+  color: rgb(0, 0, 0) !important;
+  font-size: 1rem !important;
+  margin-bottom: 1rem;
+}
+input[name="object_name"]:hover{
+  background: rgb(241, 241, 241) !important;
+}
+input[name="insertobj" ]{
+  border-radius: 25px !important;
+  background: rgb(0,78,146) !important;
+  border-color: transparent !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.1rem !important;
+}
+
+input[name="insertobj"]:hover{
+  background-color:rgb(0, 144, 228) !important;
+  cursor: pointer !important;
+}
+
+/*Fim da pagina de gestão de objetos*/
+
+/*Início da página gestão de valores*/
+input[name="attr_allowed_values"]{
+  height: 2rem !important;
+  background: transparent !important;
+  border: none !important;
+  outline: none !important;
+  border-bottom: 1px solid rgb(0,78,146) !important;
+  color: rgb(0, 0, 0) !important;
+  font-size: 1rem !important;
+  margin-bottom: 1rem;
+}
+input[name="attr_allowed_values"]:hover{
+  background: rgb(241, 241, 241) !important;
+}
+input[name="insertval" ]{
+  border-radius: 25px !important;
+  background: rgb(0,78,146) !important;
+  border-color: transparent !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.1rem !important;
+}
+
+input[name="insertval"]:hover{
+  background-color:rgb(0, 144, 228) !important;
+  cursor: pointer !important;
+}
+
+/*Fim da pagina de gestão de valores*/
+
+/*Início da página gestão de forms*/
+input[name="custom_form"]{
+  height: 2rem !important;
+  background: transparent !important;
+  border: none !important;
+  outline: none !important;
+  border-bottom: 1px solid rgb(0,78,146) !important;
+  color: rgb(0, 0, 0) !important;
+  font-size: 1rem !important;
+  margin-bottom: 1rem;
+}
+input[name="custom_form"]:hover{
+  background: rgb(241, 241, 241) !important;
+}
+input[name="nome_formulario"]{
+  height: 2rem !important;
+  background: transparent !important;
+  border: none !important;
+  outline: none !important;
+  border-bottom: 1px solid rgb(0,78,146) !important;
+  color: rgb(0, 0, 0) !important;
+  font-size: 1rem !important;
+  margin-bottom: 1rem;
+}
+input[name="nome_formulario"]:hover{
+  background: rgb(241, 241, 241) !important;
+}
+input[name="inserform" ]{
+  border-radius: 25px !important;
+  background: rgb(0,78,146) !important;
+  border-color: transparent !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.1rem !important;
+}
+
+input[name="inserform"]:hover{
+  background-color:rgb(0, 144, 228) !important;
+  cursor: pointer !important;
+}
+
+#formstbl{
+  width: fit-content !important;
+}
+/*Fim da pagina de gestão de forms*/
+
+/*Início da pagina de inserção e valores*/
+
+.lists{
+  margin: 0 auto !important;
+  width: fit-content !important;
+  height: fit-content !important;
+}
+
+.list_titles{
+  margin-bottom: 0rem !important;
+  font-size: 1.2rem !important;
+  font-weight: bold !important;
+  padding-bottom: 0rem !important;
+}
+.li_h{
+  font-weight: bold !important;
+  margin-bottom: 0rem !important;
+}
+
+.ul_h:hover{
+  font-weight: bold !important;
+  text-decoration: underline !important;
+  margin-bottom: 0rem !important;
+}
+
+.alert{
+  font-weight: bold !important;
+  font-size: 1rem !important;
+}
+
+.obriga{
+  font-weight: bold !important;
+}
+
+.hilighted{
+  text-decoration: underline !important;
+}
+
+input[name="nome_instace"]{
+  height: 2rem !important;
+  width: 20rem !important;
+  background: transparent !important;
+  border: none !important;
+  outline: none !important;
+  border-bottom: 1px solid rgb(0,78,146) !important;
+  color: rgb(0, 0, 0) !important;
+  font-size: 1rem !important;
+  margin-bottom: 1rem;
+}
+input[name="nome_instace"]:hover{
+  background: rgb(241, 241, 241) !important;
+}
+
+.validar{
+  font-weight: bold !important;
+  font-size: 1rem !important;
+}
